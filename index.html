@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ecommerce</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link href="./CSS/font.css" rel="stylesheet" />
+    <link href="./CSS/index.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="container">
+      <header
+        class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-2 border-bottom"
+      >
+        <div class="d-flex align-items-center col-md-3 mb-0 mb-md-0">
+          <img
+            src="https://i.namu.wiki/i/jgb21ZaBUHKl916NdgdAa3VyCAuQgotys8Cq9DpuQuVChpxBMgrF2fTZOUhX9J9_o25mq9ElEGXjkmaZpsqceH1ZMXJLXpojmIo_-pc83JCeXYW4r9PLPP8M3u1ZoHpsOUAzgXaExNXUFZ8u_kkK8w.webp"
+            alt="logo"
+            width="65px"
+            class="me-2"
+          />
+          <a
+            href="./index.html"
+            class="fs-4 d-inline-flex link-body-emphasis text-decoration-none logo-font custom-color"
+            >Tales Runner</a
+          >
+        </div>
+
+        <ul
+          class="nav col-12 col-md-auto mb-0 justify-content-center mb-md-0 main-font"
+        >
+          <li>
+            <a href="./index.html" class="nav-link px-2 link-secondary">Shop</a>
+          </li>
+          <li><a href="#" class="nav-link px-2 custom-color">Men</a></li>
+          <li><a href="#" class="nav-link px-2 custom-color">Women</a></li>
+          <li><a href="#" class="nav-link px-2 custom-color">Etc</a></li>
+        </ul>
+
+        <div class="col-md-3 text-end">
+          <button type="button" id="loginBtn" class="btn btn-outline-dark me-2">
+            Login
+          </button>
+          <button type="button" class="btn btn-dark">Sign-up</button>
+        </div>
+      </header>
+
+      <div id="loginModal" class="modal" style="display: none">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>로그인</h2>
+          <input type="text" placeholder="아이디 입력" />
+          <input type="password" placeholder="비밀번호 입력" />
+          <button class="btn btn-primary">로그인</button>
+        </div>
+      </div>
+
+      <div class="p-2 p-md-0 mb-2 mt-4 rounded">
+        <a
+          href="https://tr.hangame.com/promotion/frame/runner-closet/102/2025%20Last%20Chaos%20VOL.2"
+          target="_blank"
+          ><img src="./assets/main.png" alt="main-img" class="img-fluid"
+        /></a>
+      </div>
+      <!-- main 아래 영역-->
+      <div class="row mb-2 mt-4">
+        <div class="col-md-6">
+          <div
+            class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm position-relative"
+          >
+            <div class="col p-4 d-flex flex-column position-static box-color">
+              <strong
+                class="d-inline-block mb-2 text-primary-emphasis logo-font"
+                >New!</strong
+              >
+              <h3 class="mb-2 box-font-color bold-font">티티 크리퍼스큘</h3>
+              <p class="card-text mb-auto main-font">
+                천사와 악마의 혼혈, 티티만 입을 수 있는 크리퍼스큘 복장 출시!
+              </p>
+              <a
+                href="https://tr.hangame.com/promotion/frame/runner-closet/101/2025%20Last%20Chaos%20VOL.1"
+                target="_blank"
+                class="icon-link gap-1 icon-link-hover stretched-link light-font text-decoration-none"
+              >
+                상세 페이지 보러가기
+              </a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img
+                src="./assets/titi_clothes.png"
+                alt="titi-clothes"
+                width="250px;"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div
+            class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm position-relative"
+          >
+            <div class="col p-4 d-flex flex-column position-static box-color2">
+              <strong
+                class="d-inline-block mb-2 text-primary-emphasis logo-font"
+                >New!</strong
+              >
+              <h3 class="mb-2 box-font-color bold-font">드림랜드</h3>
+              <p class="card-text mb-auto main-font">
+                꿈나라행 룩북! 오늘 밤 드림랜드 행성으로 떠나봐요~
+              </p>
+              <a
+                href="https://tr.hangame.com/promotion/frame/runner-closet/94/Lunar%20Dream%20Collection%20VOL.02"
+                target="_blank"
+                class="icon-link gap-1 icon-link-hover stretched-link light-font text-decoration-none"
+              >
+                상세 페이지 보러가기
+              </a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img
+                src="./assets/dreamland.png"
+                alt="dreamland-clothes"
+                width="250px;"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./index.js"></script>
+  </body>
+</html>

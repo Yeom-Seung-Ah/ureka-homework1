@@ -1,0 +1,51 @@
+body {
+  background: rgb(240, 247, 255);
+}
+
+.custom-color {
+  color: #00003b !important;
+}
+.box-color {
+  background: linear-gradient(45deg, #edc5ff, #b0b1ff);
+}
+.box-color2 {
+  background: linear-gradient(45deg, #e5e5ff, #d8a2ff);
+}
+.box-font-color {
+  color: #00003b;
+}
+.modal {
+  display: none; /* 기본적으로 숨겨져 있음 */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* 화면 중앙에 정확히 위치 */
+  width: 100%;
+  height: 300px;
+  max-width: 500px; /* 모달의 최대 너비 */
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  z-index: 1000; /* 다른 요소 위에 올려놓기 */
+}
+
+.modal-content {
+  padding: 20px;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
